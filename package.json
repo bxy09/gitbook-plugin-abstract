@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "cheerio": "0.22.0",
+    "string-template": "1.0.0"
+  },
+  "description": "Show the abstract of the referenced page",
+  "devDependencies": {
+    "eslint": "3.11.1",
+    "eslint-config-semistandard": "7.0.0",
+    "eslint-config-standard": "6.2.1",
+    "eslint-plugin-promise": "3.4.0",
+    "eslint-plugin-standard": "2.0.1",
+    "gitbook-tester": "1.4.3"
+  },
+  "directories": {},
+  "engines": {
+    "gitbook": ">=2.4.1 <4.0.0"
+  },
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "name": "gitbook-plugin-abstract",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bxy09/gitbook-plugin-abstract.git"
+  },
+  "scripts": {
+    "lint": "eslint index.js",
+    "test": "npm run lint"
+  },
+  "version": "0.1.0"
+}
